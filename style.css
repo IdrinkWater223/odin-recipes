@@ -1,3 +1,7 @@
+body {
+    background-color: #F8EADC;
+    text-align: center;
+}
 #bread-ketchup-img {
     width: 75%;
     height: 75%;
@@ -6,4 +10,54 @@
 #steps-container {
     margin-top: 50px;
     width: 100%;
+}
+
+
+
+a {
+  all: unset;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  height: 4vh;
+  border-radius: 10px;        
+  background-color: #A55704;
+  cursor: pointer;
+
+}
+
+#recipe-container {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;     
+      background-color: #F3D2AF;
+      padding-right: 30px;
+      padding-left: 30px;
+
+      border-radius: 8px;       
+      font-family: sans-serif;
+      margin-left: 33%;
+      margin-right: 33%;
+  }
+
+#bread-ketchup-img {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+ol {
+  margin-top: 0;
+}
+
+ul {
+  
 }
