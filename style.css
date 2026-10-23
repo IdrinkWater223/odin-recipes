@@ -33,15 +33,13 @@ a {
 }
 
 #recipe-container {
-      margin-top: 50px;
+      margin-top: 2px;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      align-items: center;     
+      align-items: center;
       background-color: #F3D2AF;
-      padding-right: 30px;
-      padding-left: 30px;
-
+      padding: 10px;
       border-radius: 8px;       
       font-family: sans-serif;
       margin-left: 33%;
